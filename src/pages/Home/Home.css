@@ -54,7 +54,7 @@
       background: #6d6d6e66;
 }
 .more-cards{
-      padding-left: 6%;
+      padding: 0px 3%;
 }
 @media (max-width:1024px) {
       .hero-caption .title-cards{
@@ -65,12 +65,16 @@
       }
 }
 @media (max-width:800px) {
-      .hero-caption{
+      /* .hero-caption{
             padding-left: 4%;
       }
       .caption-img{
             margin-bottom: 10px;
-      }
+      } */
+      .caption-img {
+                   display: none;
+             }
+             
       .hero-caption p{
             font-size: 12px;
             margin-bottom: 10px;
@@ -86,12 +90,24 @@
       .caption-img{
             display: none;
       }
-      .btn img{
-            width: 15px;
+      .banner-img {
+            height: 40vh;
+            
       }
+      .hero-btns .btn .img {
+            font-size: 15px;
+      }
+      .hero-btns .btn {
+            padding: 8px 10px;
+            gap: 5px;
+            font-size: 12px;
+            font-weight: 500;
+            }
       .btn{
             padding: 4px 10px;
             gap: 5px;
-            font-size: 10px;
+      }
+      .hero-caption p{
+            font-size: 11px;
       }
 }

@@ -23,18 +23,35 @@
       list-style: none;
       gap: 20px;
 }
-.navbar-left ul li{
+.navbar-left ul li ,.navbar-right p{
+      transition: color 0.5s ease;
+
+}
+
+.navbar-left ul li:hover {
       cursor: pointer;
+      text-decoration: underline;
+      color: #E50914;
 }
 .navbar-right {
       display: flex;
       gap: 20px;
       align-items: center;
-      cursor: pointer;
 }
+.navbar-right p:hover{
+      cursor: pointer;
+      text-decoration: underline;
+      color: #E50914;
+}
+
 .navbar-right .icons{
       font-size: 20px;
+      transition: color 0.5s ease;
+}
+.navbar-right .icons:hover{
       cursor: pointer;
+      text-decoration: underline;
+      color: #E50914;
 }
 .navbar-profile{
       display: flex;
@@ -63,16 +80,52 @@
 .navbar-profile:hover .dropdown{
       display: block;
 }
-/* .nav-dark{
-      background: #141414;
-} */
+
 .nav-dark {
       background-color: #141414;
       background-image: none !important;
-      transition: background-color 0.7s ease;
-      height: 100px;
+      transition: background-color 0.2s ease;
+      height: 80px;
 }
 
+@media (max-width: 1024px) {
+      
+      .navbar-left ul {
+            gap: 15px;
+            font-size: 12px;
+            }
+      .navbar-right {
+            gap: 5px;
+            font-size: 12px;
+            }
+      .navbar-left img {
+            width: 100px;
+            height: auto;
+      }
+      
+}
+@media (max-width: 900px) {
+      
+      .navbar-left ul {
+            gap: 10px;
+            font-size: 11px;
+            }
+      .navbar-right {
+                  gap: 5px;
+                  font-size: 11px;
+            }
+      .navbar-right .icons {
+                  font-size: 15px;
+            }
+      .navbar-left img {
+            width: 100px;
+            height: auto;
+            }
+      .nav-dark {
+            height: 70px;
+      }
+      
+}
 @media (max-width: 800px) {
       .navbar{
             padding: 20px 4%;
@@ -85,18 +138,46 @@
       }
       .navbar-left img {
             width: 100px;
-            height: 100%;
+            height: auto;
+      }
+      .navbar .dropdown {
+            padding: 10px;
+            border-radius: 5px;
+      }
+      .navbar-right .icons {
+            font-size: 13px;
+      }
+      .nav-dark {
+            height: 60px;
       }
 }
 @media (max-width: 500px) {
       .navbar img{
             height: 20px;
       }
+      .navbar {
+            padding: 0px 4%;
+            font-size: 12px;
+      }
       .navbar-right{
-            gap: 10px;
+            gap: 5px;
+      }
+      .navbar-right .icons {
+            font-size: 10px;
       }
       .navbar-left img{
             width: 100px;
-            height: 100%;
+            height: auto;
       }
+      .nav-dark {
+            height: 50px;
+      }
+      .navbar .dropdown {
+            padding: 10px ;
+            border-radius: 5px;
+      }
+      .navbar .dropdown p {
+            font-size: 10px;
+      }
+
 }

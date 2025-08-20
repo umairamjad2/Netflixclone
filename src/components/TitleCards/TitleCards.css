@@ -36,8 +36,26 @@
       }
       .card-list img{
             width: 165px;
+            height: auto;
       }
       .card-list p{
             font-size: 10px;
+      }
+}
+@media (max-width: 500px) {
+      .title-cards h2 {
+            font-size: 14px;
+            font-weight: 400;
+      }
+      
+      .card-list img {
+            max-width: 120px;
+            height: auto;
+      }
+      
+      .card-list .card p {
+            font-size: 9px;
+            text-align: end;
+            /* padding-left: 10px; */
       }
 }

@@ -19,7 +19,7 @@ const Home = () => {
           <p>
             Discovering his ties to a secret ancient order , a young man living
             in modern Istanbul embarks on a quest to save the city from an
-            immortal enemy
+            immortal enemy.
           </p>
           <div className="hero-btns">
             <button className="btn">
@@ -30,10 +30,10 @@ const Home = () => {
               More Info
             </button>
           </div>
-          <TitleCards />
         </div>
       </div>
       <div className="more-cards">
+        <TitleCards />
         <TitleCards title={"Blockbuster Movies"} category={"top_rated"} />
         <TitleCards title={"Only for Netflix"} category={"popular"} />
         <TitleCards title={"Upcoming"} category={"upcoming"} />

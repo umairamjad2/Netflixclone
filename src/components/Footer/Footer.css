@@ -1,4 +1,4 @@
-.footer{
+      .footer{
       padding: 30px 4%;
       max-width: 1000px;
       margin: 0 auto;
@@ -46,5 +46,18 @@
             grid-template-columns: auto auto;
             gap: 8px;
             font-size: 14px;
+      }
+}
+@media (max-width:500px) {
+      .footer-icons .img {
+            font-size: 15px;
+      }  
+      .footer ul{
+            font-size: 10px;
+            font-weight: 400;
+      }
+      .copyright-text {
+
+            font-size: 10px;
       }
 }

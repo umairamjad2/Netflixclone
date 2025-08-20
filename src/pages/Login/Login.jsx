@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Login.css";
-import logo from "../../assets/logo.png";
+// import logo from "../../assets/logo.png";
+import logo from "../../assets/netflixLogo.png";
 import { login, signup } from "../../firebase";
 import netflix_spinner from "../../assets/spinning.gif";
 
@@ -22,10 +23,11 @@ const Login = () => {
     setLoading(false);
   };
 
-  return (
-    loading?<div className="login-spinner">
+  return loading ? (
+    <div className="login-spinner">
       <img src={netflix_spinner} alt="" />
-    </div>:
+    </div>
+  ) : (
     <div className="login">
       <img src={logo} alt="" className="login-logo" />
       <div className="login-form">
