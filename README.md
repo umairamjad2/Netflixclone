@@ -19,10 +19,3 @@ A modern **Netflix-inspired streaming web application** built using React and Vi
 * HTML5
 * CSS3 / Tailwind CSS
 * Firebase (Auth, Firestore, Hosting)
-
-## 📦 Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/netflix-clone.git
