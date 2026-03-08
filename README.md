@@ -17,5 +17,5 @@ A modern **Netflix-inspired streaming web application** built using React and Vi
 * Vite
 * JavaScript
 * HTML5
-* CSS3 / Tailwind CSS
+* CSS3 
 * Firebase (Auth, Firestore, Hosting)
