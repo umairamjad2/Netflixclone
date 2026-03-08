@@ -1,12 +1,28 @@
-# React + Vite
+# Netflix Clone
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **Netflix-inspired streaming web application** built using React and Vite. This project replicates the core streaming experience of Netflix, allowing users to browse movies, view details, and manage authentication with a responsive and user-friendly interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* User authentication using Firebase Auth
+* Dynamic movie listing interface
+* Responsive design for different screen sizes
+* Modern UI inspired by Netflix
+* Component-based architecture using React and React Router
+* State management using React Context / Hooks
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React.js
+* Vite
+* JavaScript
+* HTML5
+* CSS3 / Tailwind CSS
+* Firebase (Auth, Firestore, Hosting)
+
+## 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/netflix-clone.git
